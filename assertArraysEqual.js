@@ -10,6 +10,7 @@ const eqArrays = function(array1, array2) {
     }
     return true;
   }
+  return false;
 } 
 
 //Compare two arrays
@@ -25,4 +26,4 @@ const assertArraysEqual = function(array1, array2) {
 assertArraysEqual(["1", "2", "3"], ["1", "2", 3])
 assertArraysEqual(["1", "2", "3"], ["1", "2", "3"])
 assertArraysEqual([1, 2, 3], [1, 2, 3])
-assertArraysEqual([1, 2, 3], [3, 2, 1])
+assertArraysEqual([1, 2, 3], [3, 3, 4])
